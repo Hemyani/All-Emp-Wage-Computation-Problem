@@ -9,9 +9,12 @@ namespace All_Emp_Wage_Computation_Problem
     {
         static void Main(string[] args)
         {
-            UC8.computeEmpWage("DMart", 20, 30, 20);
-            UC8.computeEmpWage("TCS", 15, 25, 25);
-            Console.ReadLine();
+            UC9 Amazon = new UC9("Amazon", 30, 25, 20);
+            UC9 Infosys = new UC9("Infosys", 25, 22, 29);
+            Amazon.CompanyEmpWage();
+            Console.WriteLine(Amazon.toString());
+            Infosys.CompanyEmpWage();
+            Console.Write(Infosys.toString());
         }
     }
 }
