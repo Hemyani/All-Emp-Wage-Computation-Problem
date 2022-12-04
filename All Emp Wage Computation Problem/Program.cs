@@ -9,7 +9,7 @@ namespace All_Emp_Wage_Computation_Problem
     {
         static void Main(string[] args)
         {
-            UC5.EmpWages();
+            UC6.DaysOrHours();
             Console.ReadLine();
         }
     }
