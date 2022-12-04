@@ -9,7 +9,8 @@ namespace All_Emp_Wage_Computation_Problem
     {
         static void Main(string[] args)
         {
-            UC7.Refactor();
+            UC8.computeEmpWage("DMart", 20, 30, 20);
+            UC8.computeEmpWage("TCS", 15, 25, 25);
             Console.ReadLine();
         }
     }
